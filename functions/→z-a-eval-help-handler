@@ -1,0 +1,10 @@
+# -*- mode: zsh; sh-indentation: 2; indent-tabs-mode: nil; sh-basic-offset: 2; -*-
+# vim: ft=zsh sw=2 ts=2 et
+
+→z-a-eval-help-handler() {
+  +zi-message "—— {annex}recache{nl}" \
+  "{tab}{msg} – Recache eval output of all plugins and snippets{rst}{nl}" \
+  "{tab}{opt}[user/repository]{rst}{msg} –  Recache eval output of specified plugin or snippet{rst}{nl}" \
+  "{tab}{opt}[-h]{rst}{msg} – This message{rst}{nl}"
+  return 0
+}
